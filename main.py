@@ -7,6 +7,7 @@ import requests
 api = FastAPI()
 # Configuración CORS
 origins = [
+    "https://meli-hunter-price-client.vercel.app/",
     "http://localhost:5173",
     "http://localhost:5174",
     "http://localhost:8000",
